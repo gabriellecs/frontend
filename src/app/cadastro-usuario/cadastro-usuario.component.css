@@ -6,7 +6,7 @@
 }
 
 .body {
-    background-image: url(https://i.imgur.com/XbRg9D7.png);
+    background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed
@@ -30,7 +30,7 @@
 h1 {
     text-align: center;
     margin-bottom: 20px;
-    color: #0d009c
+    color: #473d49
 }
 
 .label-float input {
@@ -38,7 +38,7 @@ h1 {
     padding: 5px 5px;
     display: inline-block;
     border: 0;
-    border-bottom: 2px solid #0d009c;
+    border-bottom: 2px solid #473d49;
     background-color: transparent;
     outline: none;
     min-width: 180px;
@@ -59,7 +59,7 @@ h1 {
 }
 
 .label-float label {
-    color: #0d009c;
+    color: #473d49;
     pointer-event: none;
     position: absolute;
     top: 0;
@@ -77,8 +77,8 @@ h1 {
 
 button {
     background-color: transparent;
-    border-color: #0d009c;
-    color: #0d009c;
+    border-color: black;
+    color: #473d49;
     padding: 7px;
     font-weight: bold;
     font-size: 12pt;
@@ -90,7 +90,7 @@ button {
 }
 
 button:hover {
-    background-color: #0d009c;
+    background-color: #473d49;
     color: #fff;
 }
 
@@ -104,7 +104,7 @@ button:hover {
     top: 15px;
     right: 10px;
     cursor: pointer;
-    color: #0d009c;
+    color: #473d49;
 }
 
 #msgError {
