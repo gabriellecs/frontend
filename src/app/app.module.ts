@@ -15,6 +15,7 @@ import { ReportComponent } from './report/report.component';
 import { LocalizacaoListaComponent } from './localizacao-lista/localizacao-lista.component';
 import { LocalizacaoCadastroComponent } from './localizacao-cadastro/localizacao-cadastro.component';
 import { ClienteCadastroComponent } from './cliente-cadastro/cliente-cadastro.component';
+import { CadastroCategoriaComponent } from './cadastro-categoria/cadastro-categoria.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { ClienteCadastroComponent } from './cliente-cadastro/cliente-cadastro.co
     ReportComponent,
     LocalizacaoListaComponent,
     LocalizacaoCadastroComponent,
-    ClienteCadastroComponent
+    ClienteCadastroComponent,
+    CadastroCategoriaComponent
   ],
   imports: [
     BrowserModule,
