@@ -10,11 +10,8 @@ import { HeaderComponent } from './header/header.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { HomeComponent } from './home/home.component';
 import { CarrinhoListaComponent } from './carrinho-lista/carrinho-lista.component';
-import { SobreComponent } from './sobre/sobre.component';
 import { LoginComponent } from './login/login.component';
 import { ReportComponent } from './report/report.component';
-import { VooListaComponent } from './voo-lista/voo-lista.component';
-import { VooCadastroComponent } from './voo-cadastro/voo-cadastro.component';
 import { LocalizacaoListaComponent } from './localizacao-lista/localizacao-lista.component';
 import { LocalizacaoCadastroComponent } from './localizacao-cadastro/localizacao-cadastro.component';
 import { ClienteCadastroComponent } from './cliente-cadastro/cliente-cadastro.component';
@@ -27,11 +24,8 @@ import { ClienteCadastroComponent } from './cliente-cadastro/cliente-cadastro.co
     NavigationComponent,
     HomeComponent,
     CarrinhoListaComponent,
-    SobreComponent,
     LoginComponent,
     ReportComponent,
-    VooListaComponent,
-    VooCadastroComponent,
     LocalizacaoListaComponent,
     LocalizacaoCadastroComponent,
     ClienteCadastroComponent
