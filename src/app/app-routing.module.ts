@@ -7,6 +7,8 @@ import { HomeComponent } from './home/home.component';
 import { ReportComponent } from './report/report.component';
 import { LocalizacaoCadastroComponent } from './localizacao-cadastro/localizacao-cadastro.component';
 import { ClienteCadastroComponent } from './cliente-cadastro/cliente-cadastro.component';
+import { CadastroCategoriaComponent } from './cadastro-categoria/cadastro-categoria.component';
+
 
 const routes: Routes = [{
   path:"",
@@ -35,7 +37,14 @@ const routes: Routes = [{
 },{
   path:"cliente-cadastro/:id",
   component: ClienteCadastroComponent
-}];
+},{
+  path:"cadastro-categoria",
+  component: CadastroCategoriaComponent
+}, {
+  path:"cadastro-categoria/:id",
+  component: CadastroCategoriaComponent
+}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
